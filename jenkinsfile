@@ -1,0 +1,34 @@
+pipeline{
+    agent any
+    stages{
+        stage("building stage"){
+            steps{
+                
+                echo "Hello World"
+                
+            }
+        }
+        
+        stage('testing stage'){
+            steps{
+                echo "hello odi from testing "
+            }
+        }
+         stage('Deployment stage'){
+            steps{
+                echo "hello odi Good "
+            }
+        }
+         stage('Wow QA stage'){
+            steps{
+                echo "hello odi from testing "
+            }
+        }
+         stage('Wonderful odi you are doing Greate stage'){
+            steps{
+                echo "hello odi from testing "
+            }
+        }
+    }
+}
+
