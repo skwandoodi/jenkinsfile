@@ -4,7 +4,7 @@ pipeline{
         stage("building stage"){
             steps{
                 
-                echo "Hello World"
+                echo "this is my first pipline project"
                 
             }
         }
