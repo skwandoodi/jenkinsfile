@@ -16,45 +16,8 @@ pipeline{
         sh 'mvn -version'
         }
         }
+        stage("maven clean:clean stage){
+        steps{
+        sh 'mvn -chdir=Maven/pom.xml clean'
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-   
-   
-   
-   
