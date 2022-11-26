@@ -1,0 +1,49 @@
+pipeline{
+    agent any
+    stages{
+        stage("Building stage"){
+            steps
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
