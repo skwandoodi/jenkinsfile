@@ -1,9 +1,19 @@
 pipeline{
     agent any
+    
+    tools {
+  maven 'maven3'
+}
+
     stages{
-        stage ("building stage"){
+        stage ("Git checkout"){
         steps{
            git 'https://github.com/skwandoodi/Jenkins-Full-Course-on-aws-Linux.git' 
+        }
+        }
+        stage("Maven version Stage"){
+        steps{
+        sh 'mvn -version'
         }
         }
     }
