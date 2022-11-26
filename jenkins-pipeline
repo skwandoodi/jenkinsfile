@@ -1,13 +1,13 @@
 pipeline{
     agent any
     stages{
-        stage("Building stage"){
-            steps{
-            git 'https://github.com/skwandoodi/Jenkins-Full-Course-on-aws-Linux.git'
+        stage ("building stage"){
+        steps{
+           git 'https://github.com/skwandoodi/Jenkins-Full-Course-on-aws-Linux.git' 
+        }
         }
     }
 }
-
 
 
 
