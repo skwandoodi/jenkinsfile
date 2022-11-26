@@ -18,6 +18,6 @@ pipeline{
         }
         stage("maven clean:clean stage){
         steps{
-        sh 'mvn -chdir=Maven/pom.xml clean'
+        sh 'mvn -chdir=Maven\pom.xml clean'
     }
 }
